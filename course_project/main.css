@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+section {
+    background: #ff1b58;
+    height: 528px;
+}
+
+h1 {
+    color: white;
+}
+
+.cursive {
+    font-family: 'Amatic SC', cursive;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.sans-serif {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+.monspace {
+    font-family: monspace;
+}
