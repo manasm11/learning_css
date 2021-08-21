@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 2000px;
+}
+
+
+div > div {
+    border: 8px black solid;
+    background-color: aqua;
+    height: 100px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+div.main {
+    background-color: blue;
+    border: 4px black solid;
+    margin: 80px;
+}
+
+.child-1 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    inset: 0;
+    position: fixed;
+    background-image: radial-gradient(circle 20px ,white 5%, black 99%);
+    border: 5px black solid;
+    display: block;
+    margin: auto;
+}
+
+.backdrop {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 9;
+}
+
+.dialogbox {
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    z-index: 10;
+}
